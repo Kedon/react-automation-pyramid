@@ -31,7 +31,7 @@ I kept the Jest configuration minimal. You can find it in src/jest.config.ts and
  - You can use this project as a starting point for your own.
  - And lastly, but no less important, integrate tests into deployment processes to effectively prevent the release of bugs and errors that could impact end-users.
 
-One More Piece of Advice:
+### One More Piece of Advice:
 
 By default, Create-React-App has resetMocks enabled. If you encounter issues using Jest.mock function, you can disable it by adding the following to your package.json:
 ```json
