@@ -1,6 +1,6 @@
 ## Test Automation Pyramid Implementation in React
 
-This project is part of the article “How to implement the test automation pyramid in a React project”. In it, you will find a real-world example of a successful implementation for React.
+This project is part of the article `“How to implement the test automation pyramid in a React project”`. In it, you will find a real-world example of a successful implementation for React.
 
 I am using the well-known Jest+React Testing Library (RTL) for unit and integration tests, and Cypress, another widely adopted library for End-to-end tests.
 
