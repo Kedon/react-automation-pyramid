@@ -41,7 +41,7 @@ By default, Create-React-App has resetMocks enabled. If you encounter issues usi
 ```
 
 
-To wrap up, remember to review the npm scripts used to run tests. Here are some of them:
+To wrap up, remember to review the npm scripts used in this project. Here are some of them:
 
 #### npm start: 
 Runs the application in development mode. Any edits trigger a page reload.
