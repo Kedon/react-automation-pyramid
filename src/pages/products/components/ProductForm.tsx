@@ -148,7 +148,7 @@ const ProductForm: React.FC<ProductFormProps> = ({ isOpen, data, toggle, onAddPr
                         { formFields.id ? "Edit" : "Add" }
                 </Button>
             </>}
-            title="Add product"
+            title={ formFields.id ? "Edit product" : "Add product" }
         >
             <Input
                 type="text"
