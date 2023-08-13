@@ -1,3 +1,15 @@
+/*
+  Application Entry Point
+  This module serves as the entry point of the application where the root component (App) is rendered within the ReactDOM.
+
+  The module includes:
+  - Importing of required modules and components.
+  - Use of `ReactDOM.createRoot` to render the root component using Concurrent Mode.
+  - Wrapping the root component with the `ThemeProvider` and `AuthProvider` to provide theme and authentication context.
+  - Optional use of `React.StrictMode` to highlight potential issues during development.
+  - Calling the `reportWebVitals` function to measure performance metrics (if needed).
+*/
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';

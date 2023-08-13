@@ -1,3 +1,13 @@
+/*
+  Table Component Testing
+  This test suite is designed to test the behavior of the Table component, which encapsulates a table for displaying tabular data.
+
+  The test includes:
+  - Rendering the table headers and data, and ensuring they are displayed correctly.
+
+  Testing Library and Jest are used for testing.
+*/
+
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 

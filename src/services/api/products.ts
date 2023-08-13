@@ -1,3 +1,17 @@
+/*
+  Products Service Module
+  This module encapsulates API interactions related to products using Axios for HTTP requests.
+
+  The module includes:
+  - Definition of the base API URL for products.
+  - Interface `ProductsService` defining methods for CRUD operations on products.
+  - Implementation of the `productsService` object that provides methods to interact with the API.
+
+  Example Usage:
+  Import the `productsService` object in components where you need to interact with the product-related APIs.
+  Call the methods (get, post, put, delete) provided by `productsService` to perform CRUD operations on products.
+*/
+
 import { client } from '../../utils/axios-utils';
 import {  Product } from '../../interfaces/product.interface'
 

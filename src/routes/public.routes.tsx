@@ -3,7 +3,7 @@ import { Routes, Route, useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '../hooks/auth';
 import SignIn from '../pages/signin/Signin';
 
-const AuthRoutes: React.FC = () => {
+const PublicRoutes: React.FC = () => {
     const { logged } = useAuth();
 
     const location = useLocation();
@@ -24,4 +24,4 @@ const AuthRoutes: React.FC = () => {
     </Routes>
 };
 
-export default AuthRoutes;
+export default PublicRoutes;

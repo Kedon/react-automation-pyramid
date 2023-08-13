@@ -16,7 +16,7 @@
  */
 
 // Import necessary dependencies and components
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 
 import Modal from '../../../components/modal/Modal';
 import Button from '../../../components/button/Button';
@@ -47,7 +47,7 @@ const ProductForm: React.FC<ProductFormProps> = ({ isOpen, data, toggle, onAddPr
     const [ isRequestingApi, setIsRequestingApi ] = useState<boolean>(false);
 
     // Handle input field changes
-    const handleFieldChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const handleFieldChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
         const { name, value } = e.target;
         setFormFields({
             ...formFields,
@@ -59,7 +59,7 @@ const ProductForm: React.FC<ProductFormProps> = ({ isOpen, data, toggle, onAddPr
             ...requiredFields,
             [name]: '',
         });
-    };
+    }, [formFields, requiredFields]);
 
     // Handle the save/update action
     const handleSaveOrUpdate = () => {

@@ -1,3 +1,15 @@
+/*
+  Toggle Component Testing
+  This test suite is designed to test the behavior of the Toggle component, which encapsulates a toggle switch UI element.
+
+  The tests include:
+  - Rendering the toggle with default state and labels.
+  - Verifying that the onChange handler is called when the toggle is clicked.
+  - Confirming that the checked state updates correctly and onChange is called.
+
+  Testing Library and Jest are used for testing.
+*/
+
 import { render, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 

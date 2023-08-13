@@ -1,3 +1,19 @@
+/*
+  Theme Context
+  This module defines a theme context using React's Context API. It enables components to manage and toggle between different application themes.
+
+  The context includes:
+  - `ThemeContext` createContext: A context object that provides access to theme-related functions and state.
+  - `ThemeProvider` component: A provider component that wraps the application and manages the current theme state.
+    - Uses `useState` to manage the theme based on localStorage.
+    - Defines `toggleTheme` function to switch between light and dark themes.
+  - `useTheme` hook: A custom hook that allows components to access the theme context.
+
+  Example Usage:
+  Wrap your application with the `ThemeProvider` component to enable theme management across the app.
+  Use the `useTheme` hook in components to access theme functions and state.
+*/
+
 import React, { createContext, useState, useContext } from 'react';
 
 import dark from '../styles/themes/dark';

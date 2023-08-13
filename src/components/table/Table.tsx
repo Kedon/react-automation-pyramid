@@ -1,3 +1,23 @@
+/*
+  Table Component
+  This component defines a reusable table for displaying tabular data in a structured manner within React applications.
+
+  Props:
+  - headers: An array of strings representing the table column headers.
+  - data: An array of objects (rows) where each object contains data for each column header.
+  - testid: Test ID used for targeting in tests.
+
+  Example Usage:
+  <Table
+    headers={['Name', 'Age', 'Location']}
+    data={[
+      { Name: 'John', Age: 30, Location: 'New York' },
+      { Name: 'Jane', Age: 25, Location: 'San Francisco' },
+      // ...
+    ]}
+  />
+*/
+
 import React from 'react';
 import { TableWrapper, StyledTable, TableHeader, TableRow, TableCell } from './styles';
 

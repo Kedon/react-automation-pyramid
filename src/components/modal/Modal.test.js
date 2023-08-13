@@ -1,3 +1,15 @@
+/*
+  Modal Component Testing
+  This test suite is designed to test the behavior of the Modal component, which encapsulates a modal dialog.
+
+  The tests include:
+  1. Rendering modal content and ensuring title, modal content, and footer are displayed.
+  2. Verifying that the onClose function is called when the modal is closed.
+  3. Checking that the modal does not render when the isOpen prop is set to false.
+
+  Testing Library and Jest are used for testing.
+*/
+
 import { render, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 

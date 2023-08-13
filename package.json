@@ -27,7 +27,6 @@
     "test:verbose": "react-scripts test --verbose",
     "test:coverage": "react-scripts test --coverage",
     "cy:open": "cypress open",
-    "cy:open:tablet": "cypress open --config viewportWidth=767,viewportHeight=480",
     "cy:test": "cypress run --browser chrome"
   },
   "jest": {

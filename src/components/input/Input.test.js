@@ -1,3 +1,14 @@
+/*
+  Input Component Testing
+  This test suite is designed to test the behavior of the Input component, which encapsulates an input field.
+
+  The tests include:
+  1. Rendering the input correctly with an initial value.
+  2. Ensuring that the onChange handler is called correctly when the input value changes.
+
+  Testing Library and Jest are used for testing.
+*/
+
 import { render, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect'; // For additional matchers
 

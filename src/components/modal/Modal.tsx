@@ -1,3 +1,26 @@
+/*
+  Modal Component
+  This component defines a customizable modal dialog for React applications. It encapsulates a modal with a header, body, footer, and close functionality.
+
+  Props:
+  - isOpen: Determines whether the modal is visible.
+  - onClose: Callback function invoked when the modal is closed.
+  - title: Title or heading of the modal.
+  - children: Content placed within the modal body.
+  - footer: Content placed within the modal footer.
+  - testid: Test ID used for targeting in tests.
+
+  Example Usage:
+  <Modal
+    isOpen={isModalOpen}
+    onClose={() => setIsModalOpen(false)}
+    title="Edit Profile"
+    footer={<Button onClick={saveChanges}>Save</Button>}
+  >
+    <p>Modal body content goes here.</p>
+  </Modal>
+  */
+
 import React from 'react';
 import { ModalWrapper, ModalContent, ModalHeader, ModalBody, ModalFooter, ModalCloseButton } from './styles';
 

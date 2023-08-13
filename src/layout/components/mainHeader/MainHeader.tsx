@@ -5,9 +5,6 @@ import Toggle from "../../../components/toggle/Toggle";
 
 const MainHeader: React.FC = () => {
     const { toggleTheme, theme } = useTheme();
-    const handleToggleChange = (checked: boolean) => {
-        console.log('Toggle state:', checked);
-      };
     
     return (
         <Container>
