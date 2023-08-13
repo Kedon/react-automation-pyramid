@@ -11,14 +11,8 @@ const Aside: React.FC = () => {
             <aside>
                 <Header>Automation Pyramid</Header>
                 <MenuContainer>
-                    <MenuItemLink href="/dashboard">
-                        Dashboard
-                    </MenuItemLink>
-                    <MenuItemLink href="/list/entry-balance">
-                        Entradas
-                    </MenuItemLink>
-                    <MenuItemLink href="/list/exit-balance">
-                        Saídas
+                    <MenuItemLink href="/products">
+                        Products
                     </MenuItemLink>
                     <MenuItemButton onClick={signOut}>
                         Sair
